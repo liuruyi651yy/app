@@ -1,0 +1,528 @@
+body {
+    background: #f0f0f0;
+}
+
+/*头部*/
+/*大盒子*/
+.kuang {
+    width: 7.5rem;
+    height: 2.7rem;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+/*头部盒子*/
+.shop-header {
+    width: 7.5rem;
+    height: 2rem;
+    background: #1a14ff;
+    margin: 0 auto;
+}
+
+/*信号栏*/
+.header-signal {
+    width: 7.5rem;
+    height: 0.41rem;
+    background: #212121;
+    position: fixed;
+    z-index: 1;
+}
+.header-signal1{
+    width: 7.5rem;
+    height: 0.41rem;
+    background: #212121;
+}
+
+/*内容栏*/
+.header-title {
+    width: 7.5rem;
+    height: 0.87rem;
+    /*background: #2f1fff;*/
+}
+
+/*信息栏*/
+.header-center {
+    width: 1.65rem;
+    height: 0.38rem;
+    /*background: cyan;*/
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+    float: left;
+    font-size: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*返回*/
+.header-returen {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #ffffff;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 0.4rem;
+    color: blue;
+    cursor: pointer;
+}
+
+/*更多*/
+.header-more {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #ffffff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.24rem;
+    margin-right: 0.24rem;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 0.4rem;
+    color: blue;
+    cursor: pointer;
+}
+
+/*搜索*/
+.header-search {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #ffffff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.24rem;
+    margin-right: 0.24rem;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 0.4rem;
+    color: blue;
+    cursor: pointer;
+}
+
+/*白色小信息栏*/
+.shop-information {
+    width: 6.9rem;
+    height: 1.26rem;
+    background: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0.1rem;
+    border-radius: 0.1rem;
+    box-shadow: 0px 5px 10px 0px
+    rgba(12, 0, 250, 0.57);
+}
+/*内容信息*/
+.information-content {
+    width: 1.43rem;
+    height: 1.06rem;
+    /*background: cyan;*/
+    margin-top: 0.1rem;
+    margin-left: 0.08rem;
+}
+
+.information-content img {
+    width: 1.43rem;
+    height: 1.06rem;
+}
+
+.head-content1 {
+    width: 3.44rem;
+    height: 0.3rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top: 0.05rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+
+.content1-one {
+    width: 1.32rem;
+    height: 0.3rem;
+    /*background: #1a14ff;*/
+    float: left;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.32rem;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #050505;
+    opacity: 0.6;
+}
+
+.content1-two {
+    width: 1.74rem;
+    height: 0.3rem;
+    /*background: #f90fac;*/
+    float: right;
+}
+
+.content1-two img {
+    width: 0.34rem;
+    height: 0.32rem;
+    float: left;
+}
+
+.head-content2 {
+    width: 5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top: 0.42rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+    font-family: "iconfont";
+}
+
+.content2-one {
+    float: left;
+    margin-right: 0.25rem;
+}
+
+.head-content3 {
+    width: 5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top: 0.72rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    opacity: 0.6;
+}
+
+.content3-one {
+    color: #f10707;
+    float: left;
+}
+
+.content3-two {
+    float: right;
+    margin-right: 0.65rem;
+}
+
+.head-content4 {
+    width: 5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top: 1.02rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    opacity: 0.6;
+    font-family: "iconfont";
+}
+.content4-one {
+    color: #0c00fa;
+    float: left;
+}
+
+.content4-two {
+
+    margin-left: 0.64rem;
+}
+/*服务*/
+/*大盒子*/
+.shop-service{
+    width: 7.5rem;
+    height: 0.45rem;
+    background: #ffffff;
+    margin: 0.62rem auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+.service-one{
+    width: 1.16rem;
+    height: 0.45rem;
+    background: #fa0087;
+    border-radius: 0.23rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.service-two{
+    width: 1.16rem;
+    height: 0.45rem;
+    color: #ffffff;
+    border-radius: 0.23rem;
+    background:#0c00fa;
+    text-align: center;
+    line-height: 0.4rem;
+}
+/*服务*/
+
+
+
+
+/*商品*/
+/*大盒子*/
+.shop-commodity{
+    width: 7.02rem;
+    height: 10.15rem;
+    /*background: #ff6700;*/
+    margin: 0.48rem auto 1rem;
+    position: relative;
+}
+/*左盒子*/
+.commodity-left{
+    width: 1.78rem;
+    height: 5.28rem;
+    /*background: #52ff32;*/
+}
+/*左盒子内容*/
+.left-commodity{
+    width: 1.16rem;
+    height: 0.45rem;
+    border-radius: 0.23rem;
+    border: solid 0.03rem #0c00fa;
+    margin: 0 auto 0.2rem;
+    color: #0c00fa;
+    text-align: center;
+    line-height: 0.45rem;
+
+}
+
+.left-commodity1{
+    width: 1.16rem;
+    height: 0.45rem;
+    background: #0c00fa;
+    margin: 0 auto 0.2rem;
+    text-align: center;
+    line-height: 0.45rem;
+    color: #ffffff;
+    border-radius: 0.23rem;
+}
+/*右盒子内容*/
+.commodity-right{
+    width: 5.24rem;
+    height: 10.15rem;
+    /*background: #ff39d8;*/
+    position: absolute;
+    left: 1.78rem;
+    top: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+/*右小盒子内容*/
+.right-commodity{
+    width: 5.24rem;
+    height: 1.76rem;
+    background: #ffffff;
+    position: relative;
+}
+.right-commodity img{
+    width: 1.6rem;
+    height: 1.07rem;
+    margin:0.38rem 0.03rem;
+}
+
+.right-commodity-one{
+    width: 0.9rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    top: 0.2rem;
+    left: 2.16rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    line-height:0.24rem;
+    letter-spacing: 0.01rem;
+    color: #080800;
+    opacity: 0.6;
+}
+
+.right-commodity-two{
+    width: 1.31rem;
+    height: 0.01rem;
+    background: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.45rem;
+    left: 2.16rem;
+}
+.right-commodity-three{
+    width: 3rem;
+    height: 0.17rem;
+    /*background: #00a0ce;*/
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.17rem;
+    line-height: 0.17rem;
+    letter-spacing:0.01rem;
+    color: #fb2661;
+    position: absolute;
+    top: 0.7rem;
+    left: 2.16rem;
+}
+.right-one{
+    width: 0.83rem;
+    height: 0.17rem;
+    /*background: #0c00fa;*/
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.17rem;
+    line-height:0.17rem;
+    letter-spacing: 0.01rem;
+    color: #fb2661;
+    float: left;
+}
+.right-one1{
+    width: 2rem;
+    height:0.17rem;
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.17rem;
+    line-height: 0.17rem;
+    letter-spacing: 0.01rem;
+    color: #0c00fa;
+    float: right;
+}
+.right-commodity-four{
+    width: 1.55rem;
+    height: 0.17rem;
+    /*background: #37ceb5;*/
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.17rem;
+    line-height: 0.17rem;
+    letter-spacing:0.01rem;
+    color: #fb2661;
+    position: absolute;
+    top: 1rem;
+    left: 2.16rem;
+
+}
+.four-one{
+    font-family: PingFang-SC-Regular;
+    font-size:0.17rem;
+    line-height: 0.17rem;
+    color: #0c00fa;
+    float: left;
+}
+.four-one1{
+    font-family: PingFang-SC-Regular;
+    font-size:0.17rem;
+    line-height: 0.17rem;
+    color: #fb2661;
+    float: left;
+}
+.four-one2{
+    font-family: PingFang-SC-Regular;
+    font-size:0.17rem;
+    line-height: 0.17rem;
+    color: #0c00fa;
+    float: left;
+}
+.right-commodity-five{
+    width: 1.26rem;
+    height: 0.17rem;
+    /*background: #00a0ce;*/
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.17rem;
+    line-height: 0.17rem;
+    letter-spacing:0.01rem;
+    color: #0c00fa;
+    position: absolute;
+    top: 1.27rem;
+    left: 2.16rem;
+}
+.right-commodity-six{
+    width: 0.33rem;
+    height: 0.33rem;
+    /*background: #85ce30;*/
+    position: absolute;
+    right:0.24rem;
+    bottom: 0.15rem;
+}
+.right-commodity-six i{
+   width: 0.33rem;
+    height: 0.33rem;
+    color: #0c00fa;
+
+}
+/*商品*/
+
+/*底部*/
+/*大盒子*/
+.footer{
+    width: 100%;
+    height: 1.2rem;
+    /*background: #ff6700;*/
+    position: fixed;
+    bottom:0;
+}
+.shop-footer{
+    width: 7.5rem;
+    height: 1.2rem;
+    background: #fffdef;
+    margin: 0.3rem auto 0;
+    position: relative;
+}
+.footer-left{
+    width: 1rem;
+    height: 1.2rem;
+    /*background: #222222;*/
+
+}
+.footer-left i{
+    line-height: 0.6rem;
+    font-size: 0.62rem;
+    text-align: center;
+    position: absolute;
+    top:0.3rem;
+    left:0.18rem;
+
+}
+.footer-content{
+    width: 3rem;
+    height: 0.8rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    top:0.2rem;
+    left: 1.73rem;
+}
+.content-top{
+    width: 3rem;
+    height: 0.3rem;
+    /*background: #2d3eff;*/
+}
+.content-bottom{
+    width: 3rem;
+    height: 0.4rem;
+    /*background: #00a0ce;*/
+    margin-top: 0.1rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #040404;
+    opacity: 0.6;
+}
+.footer-right{
+    width: 1.32rem;
+    height: 0.43rem;
+    background-color: #070700;
+    border-radius: 0.22rem;
+    opacity: 0.6;
+    position: absolute;
+    top:0.45rem;
+    left: 5.49rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+}
+/*底部*/
+
+

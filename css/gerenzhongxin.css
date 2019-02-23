@@ -1,0 +1,311 @@
+body{
+    background: #f0f0f0;
+}
+/*头部*/
+/*大盒子*/
+.kuang{
+    width: 7.5rem;
+    height: 2.6rem;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    position: relative;
+}
+/*头部盒子*/
+.personal-header{
+    width: 7.5rem;
+    height: 2.5rem;
+    background: #1a14ff;
+    margin: 0 auto;
+}
+/*信号栏*/
+.header-signal {
+    width: 7.5rem;
+    height: 0.41rem;
+    background: #212121;
+    position: fixed;
+}
+.header-signal1 {
+    width: 7.5rem;
+    height: 0.41rem;
+    background: #212121;
+}
+/*内容栏*/
+.header-title{
+    width: 7.02rem;
+    height: 0.87rem;
+    background: #2f1fff;
+}
+/*设置*/
+.header-set{
+     width: 0.4rem;
+     height: 0.4rem;
+     background: #ffffff;
+     border-radius: 50%;
+     float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.3rem;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 0.4rem;
+    color: blue;
+ }
+/*修改*/
+.header-modify{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #ffffff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.24rem;
+    margin-right: 0rem;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 0.45rem;
+    color: blue;
+}
+/*信息栏*/
+.header-center{
+    width: 1.65rem;
+    height: 0.38rem;
+    /*background: cyan;*/
+    margin-top: 0.25rem;
+    margin-left: 2.28rem;
+    float: left;
+    font-size: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+/*五个小信息栏*/
+.personal-information{
+    width: 6.9rem;
+    height: 1.26rem;
+    background: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    left: 0.3rem;
+    bottom: 0;
+    border-radius: 0.1rem;
+}
+.information-head{
+    width: 0.91rem;
+    height: 0.91rem;
+    /*background: cyan;*/
+    margin-top:0.17rem;
+    margin-left: 0.08rem;
+}
+.information-head img{
+    width: 0.91rem;
+    height: 0.91rem;
+}
+.head-content1{
+    width: 1.6rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.17rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+.head-content2{
+    width: 1.5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    right: 1.16rem;
+    top:0.17rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+    font-family: "iconfont";
+}
+.head-content3{
+    width: 5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.51rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+}
+.head-content4{
+    width: 1.5rem;
+    height: 0.23rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    left: 1.58rem;
+    top:0.95rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+    font-family: "iconfont";
+}
+/*头部*/
+/*红包*/
+/*大盒子*/
+.personal-envelopes{
+    width: 5.37rem;
+    height: 0.7rem;
+    background: #f0f0f0;
+    margin: 0.84rem auto 0;
+    display: flex;
+    justify-content: space-around;
+}/*三个小盒子*/
+.envelopes-box{
+    width: 0.77rem;
+    height: 0.7rem;
+    /*background: cyan;*/
+}
+/*小盒子属性*/
+.box-envelopes{
+    width: 0.77rem;
+    height: 0.5rem;
+    /*background: #ff6700;*/
+    text-align: center;
+    font-size: 0.18rem;
+    color: #1a14ff;
+    line-height: 0.5rem;
+}
+.box-envelopes1{
+    width: 0.77rem;
+    height: 0.2rem;
+    /*background: #b1faff;*/
+    text-align: center;
+    font-size: 0.16rem;
+    color: #040400;
+}
+/*红包*/
+/*项目*/
+.personal-project{
+    width: 7.02rem;
+    height: 3.79rem;
+    background: #f0f0f0;
+    margin: 0.25rem auto 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.project-content{
+    width: 07.02rem;
+    height: 0.76rem;
+    background: #d0e9c6;
+    position: relative;
+}
+.project-content img{
+    width: 0.53rem;
+    height: 0.53rem;
+    margin-top: 0.11rem;
+}
+.content-cont{
+    width: 0.97rem;
+    height: 0.23rem;
+    /*background: #1a14ff;*/
+    position: absolute;
+    top: 0.22rem;
+    left:1.05rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.01rem;
+    color: #040400;
+    opacity: 0.6;
+    font-weight: 800;
+}
+.content-cont1{
+    width: 0.5rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.22rem;
+    right:0.7rem;
+    background-color: #ff296f;
+    border-radius: 0.14rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.18rem;
+    font-family: "iconfont";
+}
+/*项目*/
+
+
+
+/*底部导航*/
+/*底部导航*/
+/* 大盒子*/
+.app-footer{
+    width: 7.5rem;
+    height: 1.6rem;
+    background: rgba(247, 152, 255, 0.11);
+    margin: 4rem auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+/*四个小盒子*/
+.footer-nav{
+    width: 1.5rem;
+    height: 1.6rem;
+    /*background: #f90fac;*/
+    position: relative;
+}
+/*小盒子内容*/
+.nav-icon{
+    width: 0.44rem;
+    height: 0.44rem;
+    /*background: #212121;*/
+    color: #a5a5a5;
+    position: absolute;
+    top:0.2rem;
+    left:0.5rem;
+    text-align: center;
+    font-family: "iconfont";
+    font-size: 0.36rem;
+}
+.nav-icon1{
+    width: 0.44rem;
+    height: 0.44rem;
+    /*background: #212121;*/
+    color: #2629ff;
+    position: absolute;
+    top:0.2rem;
+    left:0.5rem;
+    text-align: center;
+    font-family: "iconfont";
+    font-size: 0.36rem;
+}
+.nav-title{
+    width: 0.6rem;
+    height: 0.3rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.66rem;
+    left: 0.45rem;
+    font-size: 0.14rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.2rem;
+    color: #a5a5a5;
+}
+.nav-title1{
+    width: 0.44rem;
+    height: 0.2rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.66rem;
+    left: 0.5rem;
+    font-size: 0.16rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.2rem;
+    color: #2629ff;
+}
+/*底部导航*/
+
+
+
+/*底部导航*/

@@ -1,0 +1,672 @@
+.container {
+    width:7.5rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 7.5rem;
+    height: 1.2rem;
+    /*background: #1300ff;*/
+    margin: 0 auto;
+}
+
+.signal {
+    width: 100%;
+    height: 0.41rem;
+    background: #212121;
+    position: fixed;
+    z-index: 99;
+}
+.signal1 {
+    width:7.5rem;
+    height: 0.41rem;
+    /*background: #212121;*/
+}
+/*头部搜索框*/
+.topBar {
+    width: 7.5rem;
+    height: 100%;
+    background: #1300ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*搜索框*/
+.searchBox {
+    width: 5rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 0.21rem;
+}
+
+/*搜索图片*/
+.search {
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-top: 0.08rem;
+    margin-left: 0.18rem;
+    float: left;
+    font-family: "iconfont";
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*搜索框*/
+.input {
+    width: 4.0rem;
+    height: 0.25rem;
+    margin-top: 0.08rem;
+    margin-left: 0.08rem;
+    border: none;
+    font-size: 0.18rem;
+    color: rgba(3, 3, 0, 0.4);
+    float: left;
+}
+
+/*相机图片*/
+.camera {
+    width: 0.3rem;
+    height: 0.24rem;
+    margin-top: 0.08rem;
+    margin-left: 0.08rem;
+    font-family: "iconfont";
+    color: rgba(0, 0, 0, 0.6);
+    float: left;
+}
+
+/*扫二维码框*/
+.scanBox {
+    width: 0.42rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/*扫一扫*/
+.scan {
+    width: 0.26rem;
+    height: 0.26rem;
+    margin-top: 0.095rem;
+    margin-left: 0.095rem;
+    font-family: "iconfont";
+    color: rgba(0, 0, 0, 0.6);
+    float: left;
+}
+
+
+/*大图片*/
+/*大背景*/
+.picture-box {
+    width: 100%;
+    height: 3.48rem;
+    /*background: cyan;*/
+
+    box-shadow: 0px 8px 18px 0px #2e70ff;
+
+}
+
+.container-box {
+    width: 7.02rem;
+    height: 3.48rem;
+    margin: 0 auto;
+    /*background: #212121;*/
+    position: relative;
+}
+
+/*图片盒子*/
+.picture-image {
+    width: 7.04rem;
+    height: 3rem;
+    margin-top: 0.24rem;
+    background: #ff6700;
+
+}
+
+/*图片*/
+.picture-image li > img {
+    display: block;
+    width: 7.04rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*第一个图片*/
+.picture-image li.active {
+    z-index: 1;
+}
+
+/*轮播点盒子*/
+.picture-spot {
+    width: 1rem;
+    height: 0.1rem;
+    background: #ff6700;
+    position: absolute;
+    top: 0.54rem;
+    right: 0.54rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*轮播点*/
+.picture-spot li {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/*第一个轮播点*/
+.picture-spot li.spot-one {
+    background: cyan;
+}
+
+/*大图片*/
+
+
+/*导航*/
+.nav {
+    width: 7.02rem;
+    height: 3.6rem;
+    /*background: #f96868;*/
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+.nav-box {
+    width: 6.74rem;
+    height: 3.2rem;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #616161;
+}
+
+.nav-box img {
+    width: 1.47rem;
+    height: 1.47rem;
+
+}
+
+/*导航*/
+/*限时抢购*/
+/*大盒子*/
+.buy {
+    width: 7.02rem;
+    height: 2.34rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    background: #f0f0f0;
+    position: relative;
+}
+
+/*中间块盒子*/
+.buy-box {
+    width: 6.54rem;
+    height: 2.34rem;
+    /*background: #ff6700;*/
+    margin: 0.28rem auto;
+}
+
+/*第一行盒子*/
+.box-header {
+    width: 3.24rem;
+    height: 0.35rem;
+    /*background: #9bff2f;*/
+    position: absolute;
+    top: 0.34rem;
+    left: 1.89rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*五个大盒子*/
+.box-word {
+    width: 0.6rem;
+    height: 0.35rem;
+    /*background: #e33333;*/
+    text-align: center;
+    color: rgba(7, 1, 1, 0.85);
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+}
+
+/*点盒子*/
+.word-spotbox {
+    width: 0.3rem;
+    height: 0.1rem;
+    /*background: #212121;*/
+    margin-top: 0.125rem;
+    margin-left: 0.15rem;
+
+}
+
+/*点点*/
+.word-spot {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #1220c4;
+    border-radius: 50%;
+    float: left;
+}
+
+.word-spot1 {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #1220c4;
+    border-radius: 50%;
+    float: right;
+}
+
+/*表*/
+.box-word i {
+    font-family: "iconfont";
+    font-size: 0.3rem;
+    color: #f90fac;
+    font-weight: 600;
+}
+
+/*第二行盒子*/
+.box-content {
+    width: 5.84rem;
+    height: 0.35rem;
+    /*background: #e33333;*/
+    position: absolute;
+    left: 0.59rem;
+    top: 0.86rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*小盒子*/
+.content-box {
+    width: 1.28rem;
+    height: 0.35rem;
+    /*background: #9bff2f;*/
+    text-align: center;
+    line-height: 0.35rem;
+    color: #f90fac;
+    cursor: pointer;
+}
+
+.content-box1 {
+    width: 1.28rem;
+    height: 0.35rem;
+    /*background: #9bff2f;*/
+    text-align: center;
+    line-height: 0.35rem;
+    color: #969696;
+    cursor: pointer;
+}
+
+/*第三行盒子*/
+.box-footer {
+    width: 3.52rem;
+    height: 0.6rem;
+    /*background: cyan;*/
+    position: absolute;
+    left: 1.75rem;
+    top: 1.58rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*盒子内容*/
+.footer-box {
+    width: 0.41rem;
+    height: 0.6rem;
+    background: #f90fac;
+    font-size: 0.36rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+}
+
+/*限时抢购*/
+
+
+/*新品推荐*/
+
+/*大盒子*/
+.products {
+    width: 7.02rem;
+    height: 3rem;
+    background: #f0f0f0;
+    margin: 0.4rem auto 0;
+    position: relative;
+}
+
+/*内容盒子*/
+.products-box {
+    width: 6.8rem;
+    height: 2.4rem;
+    /*background: cyan;*/
+    position: absolute;
+    left: 0.11rem;
+    top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*内容左右盒子*/
+.box-left {
+    width: 3.3rem;
+    height: 2.4rem;
+    /*background: #9bff2f;*/
+    float: left;
+}
+
+.box-right {
+    width: 3.3rem;
+    height: 2.4rem;
+    /*background: #9bff2f;*/
+}
+
+.box-more {
+    width: 1.27rem;
+    height: 0.32rem;
+    background-color: #ff8a00;
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.25rem;
+    font-weight: 400;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box-more1 {
+    width: 1.27rem;
+    height: 0.32rem;
+    background-color: #ff8a00;
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.78rem;
+    font-weight: 400;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*左右盒子照片*/
+.box-left img {
+    width: 3.3rem;
+    height: 2.4rem;
+}
+
+.box-right img {
+    width: 3.3rem;
+    height: 2.4rem;
+}
+
+/*新品推荐*/
+
+
+/*每日推荐*/
+.everday {
+    width: 7.02rem;
+    height: 1.1rem;
+    background: #f0f0f0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.everday-top {
+    width: 2rem;
+    height: 0.3rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.34rem;
+
+    font-size: 0.24rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: #f90fac;
+}
+
+.everday-bottom {
+    width: 3rem;
+    height: 0.2rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.8rem;
+
+    font-size: 0.2rem;
+    font-weight: 400;
+
+    color: #f90fac;
+}
+
+/*每日推荐*/
+
+/*推荐*/
+/*大盒子*/
+.recommend {
+    width: 7.02rem;
+    height: 6.3rem;
+    background: #f0f0f0;
+    margin: 0.4rem auto 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*四个小盒子*/
+.recommend-box {
+    width: 7.02rem;
+    height: 1.35rem;
+    background: #d0e9c6;
+    position: relative;
+}
+
+/*小盒子内容*/
+.recommend-img {
+    width: 1.46rem;
+    height: 1.13rem;
+    /*background: #9bff2f;*/
+    position: absolute;
+    top: 0.16rem;
+}
+/*图片*/
+.recommend-img img {
+    width: 1.46rem;
+    height: 1.13rem;
+}
+/*第一行*/
+.recommend-one {
+    width: 1.51rem;
+    height: 0.32rem;
+    /*background: #e33333;*/
+    position: absolute;
+    top: 0.16rem;
+    left: 1.7rem;
+    font-weight: 600;
+
+}
+/*第二行*/
+.recommend-two {
+    width: 2rem;
+    height: 0.25rem;
+    /*background: #6450e3;*/
+    position: absolute;
+    top: 0.55rem;
+    left: 1.7rem;
+    color: #8c8c8c;
+    font-weight: 400;
+    font-size: 0.18rem;
+}
+/*第三行*/
+.recommend-three {
+    width: 2.5rem;
+    height: 0.25rem;
+    /*background: #e33333;*/
+    position: absolute;
+    top: 0.85rem;
+    left: 1.7rem;
+}
+
+.three-content {
+    color: #f90fac;
+    float: left;
+    font-size: 0.18rem;
+}
+
+.three-content1 {
+    color: #f9dc23;
+    float: right;
+    font-size: 0.18rem;
+}
+/*第四行*/
+.recommend-four {
+    width: 3.8rem;
+    height: 0.2rem;
+    /*background: #e33333;*/
+    position: absolute;
+    top: 1.13rem;
+    left: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-content {
+    width: 1.2rem;
+    height: 0.2rem;
+    /*background: #9bff2f;*/
+    font-size: 0.14rem;
+    font-family: "iconfont";
+    color: #8c8c8c;
+
+}
+
+/*右边大盒子*/
+.recommend-five {
+    width: 1.6rem;
+    height: 1.13rem;
+    /*background: #9bff2f;*/
+    position: absolute;
+    top: 0.16rem;
+    right: 0.2rem;
+}
+
+.five-top {
+    width: 1.6rem;
+    height: 0.3rem;
+    /*background: #ff33de;*/
+}
+
+.five-top img {
+    width: 0.3rem;
+    height: 0.3rem;
+    float: left;
+}
+
+.five-bottom {
+    width: 0.49rem;
+    height: 0.49rem;
+    /*background: darkred;*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.five-bottom img {
+    width: 0.49rem;
+    height: 0.49rem;
+
+}
+
+/*推荐*/
+
+
+
+/*底部导航*/
+/* 大盒子*/
+
+.footer11{
+    width: 100%;
+    height: 1.2rem;
+    /*background: #ff6700;*/
+    position: fixed;
+    bottom:10px;
+    z-index: 99;
+}
+.app-footer{
+    width: 7.5rem;
+    height: 1.2rem;
+    background: #f0f0f0;
+    margin: 0.6rem auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+/*四个小盒子*/
+.footer-nav{
+    width: 1.5rem;
+    height: 1.2rem;
+    /*background: #f90fac;*/
+    position: relative;
+}
+/*小盒子内容*/
+.nav-icon{
+    width: 0.44rem;
+    height: 0.44rem;
+    /*background: #212121;*/
+    color: #a5a5a5;
+    position: absolute;
+    top:0.1rem;
+    left:0.5rem;
+    text-align: center;
+    font-family: "iconfont";
+    font-size: 0.36rem;
+}
+.nav-icon1{
+    width: 0.44rem;
+    height: 0.44rem;
+    /*background: #212121;*/
+    color: #121eff;
+    position: absolute;
+    top:0.1rem;
+    left:0.5rem;
+    text-align: center;
+    font-family: "iconfont";
+    font-size: 0.36rem;
+}
+.nav-title{
+    width: 0.6rem;
+    height: 0.2rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.56rem;
+    left: 0.45rem;
+    font-size: 0.14rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.2rem;
+    color: #a5a5a5;
+}
+.nav-title1{
+    width: 0.44rem;
+    height: 0.2rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.56rem;
+    left: 0.5rem;
+    font-size: 0.16rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.2rem;
+    color: #121eff;
+}
+/*底部导航*/

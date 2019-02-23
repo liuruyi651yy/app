@@ -1,0 +1,149 @@
+body {
+    background: #f0f0f0;
+
+}
+
+.mode-all {
+    width:7.5rem;
+    height: 14.9rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mode-all img {
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.all-mode {
+    width: 7.5rem;
+    height: 14.9rem;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+.fingerprint{
+    width: 5.02rem;
+    height: 4.02rem;
+    background: #ffffff;
+    position: absolute;
+    top:5.2rem;
+    left:1.24rem;
+    border-radius: 0.1rem;
+}
+.fingerprint-one{
+    width: 5.02rem;
+    height: 0.29rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 0.37rem;
+}
+.fingerprint-one i{
+    width: 0.17rem;
+    height: 0.29rem;
+    color:  #0c00fa;
+    position: absolute;
+    left: 0.25rem;
+
+}
+.one-fing{
+    width: 2.18rem;
+    height: 0.29rem;
+    position: absolute;
+    left: 1.42rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.29rem;
+    line-height: 0.29rem;
+    letter-spacing: 0.01rem;
+    color: #2407fa;
+}
+.fingerprint-two{
+    width: 5.02rem;
+    height: 0.2rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 1.15rem;
+}
+.two-fing{
+    width: 1.16rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 1.93rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #2407fa;
+}
+.fingerprint-three{
+    width: 5.02rem;
+    height: 1.17rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 1.84rem;
+}
+.fingerprint-three i{
+    width: 1.17rem;
+    height: 1.17rem;
+    position: absolute;
+    left: 1.825rem;
+    font-size: 1.17rem;
+}
+.fingerprint-four{
+    width: 5.02rem;
+    height: 0.23rem;
+    /*background: cyan;*/
+    position: absolute;
+    top: 3.29rem;
+}
+.four-fing{
+    width:1.02rem;
+    height: 0.23rem;
+    position: absolute;
+    left:2rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.23rem;
+    line-height: 0.23rem;
+    letter-spacing: 0.01rem;
+    color: #0e0202;
+    opacity: 0.6;
+}
+.fingerprint-five{
+    width: 5.02rem;
+    height: 0.29rem;
+    /*background: cyan;*/
+    position: absolute;
+   bottom: 0.04rem;
+}
+.five-fing{
+    width: 2.02rem;
+    height: 0.29rem;
+    position: absolute;
+    left: 1.55rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.29rem;
+    line-height: 0.29rem;
+    letter-spacing: 0.01rem;
+    color: #0e0202;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
